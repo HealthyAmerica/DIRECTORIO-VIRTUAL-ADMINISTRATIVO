@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DIRECTORIO VIRTUAL - ADMINISTRATIVO</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="contenedor">
+    <div class="logo-container">
+      <img src="logo.png" alt="Logo de la empresa" class="logo">
+    </div>
+    
+    <h1>DIRECTORIO VIRTUAL ADMINISTRATIVO</h1>
+    
+    <input type="text" id="buscador" placeholder="Buscar por nombre o cargo..." oninput="filtrarPersonas()">
+    
+    <ul id="lista-personas"></ul>
+  </div>
+
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
